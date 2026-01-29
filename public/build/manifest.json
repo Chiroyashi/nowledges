@@ -1,0 +1,83 @@
+{
+  "_chatbar-DFm-f07j.js": {
+    "file": "assets/chatbar-DFm-f07j.js",
+    "name": "chatbar",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CHoUhxIE.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-qyhzk3_W.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/index.jsx",
+      "resources/js/pages/landing/index.jsx",
+      "resources/js/pages/login/index.jsx",
+      "resources/js/pages/roomchat/index.jsx"
+    ],
+    "css": [
+      "assets/app-CHoUhxIE.css"
+    ]
+  },
+  "resources/js/pages/index.jsx": {
+    "file": "assets/index-BTsp_X-K.js",
+    "name": "index",
+    "src": "resources/js/pages/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_chatbar-DFm-f07j.js"
+    ],
+    "css": [
+      "assets/app-CHoUhxIE.css"
+    ]
+  },
+  "resources/js/pages/landing/index.jsx": {
+    "file": "assets/index-DrC3cSHS.js",
+    "name": "index",
+    "src": "resources/js/pages/landing/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-CHoUhxIE.css"
+    ]
+  },
+  "resources/js/pages/login/index.jsx": {
+    "file": "assets/index-DdqsLQ-b.js",
+    "name": "index",
+    "src": "resources/js/pages/login/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-CHoUhxIE.css"
+    ]
+  },
+  "resources/js/pages/roomchat/index.jsx": {
+    "file": "assets/index-BYWtEEGe.js",
+    "name": "index",
+    "src": "resources/js/pages/roomchat/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_chatbar-DFm-f07j.js"
+    ],
+    "css": [
+      "assets/app-CHoUhxIE.css"
+    ]
+  }
+}
